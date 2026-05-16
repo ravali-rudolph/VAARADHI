@@ -375,3 +375,123 @@ body {
     font-size: 13px;
     color: #ffd700;
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    body{
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .logo-design img{
+        width: 140px;
+    }
+
+    .website-options{
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .icons{
+        gap: 20px;
+    }
+
+    /* BANNER */
+    .banner{
+        height: auto;
+        width: 100%;
+    }
+
+    /* HEADINGS */
+    h1{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 28px;
+    }
+
+    h5{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    /* PRODUCTS */
+    .products-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card{
+        width: 95%;
+    }
+
+    .product-card img{
+        height: auto;
+    }
+
+    /* ABOUT SECTION */
+    .picture{
+        padding: 30px 20px;
+    }
+
+    .about-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .about-text p{
+        text-align: center;
+    }
+
+    .my-picture{
+        width: 100%;
+    }
+
+    .my-picture img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* FOOTER */
+    .footer{
+        padding: 40px 20px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+}
