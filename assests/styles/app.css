@@ -1,0 +1,377 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+}
+header {
+    display:flex;
+    align-items: center;
+    gap: 100px;
+    padding :20px 40px;
+    background-color: #708238;
+}
+.logo-design img {
+    width:200px;
+    height:auto;
+}
+.website-options  {
+     text-decoration: none;
+     color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 40px;
+}
+.website-options a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.website-options a:hover {
+    color: #d4af37;
+}
+.icons {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.icons i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #d4af37 
+}
+.banner {
+  width: 100%;
+  height: 950px;   
+  object-fit: cover;
+  display: block;
+}
+h1 {
+
+    text-align: center;
+    text-decoration: none;
+    color: #708238;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top : 60px;
+    margin-bottom : 15px;
+    
+}
+h4 {
+    text-align:center;
+    text-decoration: none;
+    color: #708238;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+h5 {
+    text-align:left;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.p1 {
+    text-align: right;
+    color:black;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.p2 {
+    text-align: right;
+    color: black;
+    font-size:  25px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    text-align: center;
+    color: #d4af37;
+    font-size: 22px;
+    gap:20px;
+    margin-bottom: 60px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* PRODUCTS CONTAINER */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    width: 23%; /* IMPORTANT → 4 per row */
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+/* Container */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    color: wheat;
+}
+
+/* Product Card */
+.product-card {
+    width: 280px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    
+}
+.product-card h3 {
+    color: #b30000;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Title */
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Price */
+.price {
+    font-weight: bold;
+    color: #c89b3c;
+}
+/* Tag  #f3f1eb; */ 
+.tag {
+    display: inline-block;
+    margin-top: 8px;
+    background: #d4af37;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+/* SECTION CONTAINER */
+/* LAYOUT */
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* MAIN SECTION */
+.picture {
+    background-color: whitesmoke; /* light cream */
+    padding: 60px 80px;
+}
+
+/* HEADING */
+.picture h4 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #708238;
+    margin-bottom: 20px;
+}
+
+/* FLEX LAYOUT */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* TEXT SIDE */
+.about-text {
+    width: 50%;
+}
+
+.about-text h5 {
+    font-size: 28px;
+    color: #1f3d2b;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPHS */
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* IMAGE SIDE */
+.my-picture {
+    width: 50%;
+    text-align: center;
+}
+
+.my-picture h6 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* IMAGE */
+.my-picture img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+/* RESPONSIVE (mobile) */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text,
+    .my-picture {
+        width: 100%;
+    }
+}
+/* FOOTER */
+.footer {
+    background: linear-gradient(to right, #708238);
+    color: white;
+    padding: 60px 80px;
+}
+
+/* CONTAINER */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;   /* ⭐ FIXES ALIGNMENT */
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* COLUMN */
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+/* FORCE SAME START LINE */
+.footer-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* HEADINGS */
+.footer-column h3 {
+    margin: 0 0 15px 0;   /* ⭐ REMOVE TOP GAP */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* LINKS & TEXT */
+.footer-column a,
+.footer-column p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+/* HOVER */
+.footer-column a:hover {
+    color: #ffd700;
+}
+
+/* INPUT */
+.footer-column input {
+    margin-top: 12px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* SOCIAL */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.social-icons a:hover {
+    color: #ffd700;
+}
+
+/* COPYRIGHT */
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #ffd700;
+}
